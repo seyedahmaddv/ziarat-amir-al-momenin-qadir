@@ -1,5 +1,5 @@
 import './App.css'
-import MyText from './MyText.jsx'
+import MyText from './MyText'
 import haram from './assets/haram-najaf.jpg'
 
 function App() {
