@@ -45,6 +45,13 @@ p{
   line-height:2em;
   
 }
+img{
+  width: '25%'; 
+  height: 'auto';
+  justifyContent: 'center';
+        alignItems: 'center';
+        borderRadius: '5%';
+}
 button {
   border-radius: 8px;
   border: 1px solid transparent;
