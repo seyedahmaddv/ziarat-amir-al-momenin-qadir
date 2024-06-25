@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css'
 import './App.css'
 import './mytext.css'
+import './fonts.css';
 
 function MyText() {
     const longText = `

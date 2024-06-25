@@ -1,0 +1,12 @@
+@font-face{
+    font-family: 'Neirizi';
+      src: url('./fonts/Neirizi.ttf') format('ttf'),
+  url('./fonts/Neirizi.ttf') format('ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+body {
+font-family: 'Neirizi', 'tahoma';
+
+}
