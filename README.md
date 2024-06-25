@@ -18,6 +18,6 @@ This is a simple React project written with TypeScript.
 
 Demo Link: [https://ziarat-amir-al-momenin-qadir.vercel.app/]
 
-> [!توجه]
+> [!Note]
 >  لطفا پیشنهاد خودتان را در جهت بهبود به ایمیل من [seyedahmaddv-at-gmail] ارسال بفرمایید یا در صورت امکان در گیت هاب خودتان اقدام فرمایید
  
