@@ -15,6 +15,7 @@ This is a simple React project written with TypeScript.
 
     JavaScript
     CSS
+    Vitejs
 
 Demo Link: [https://ziarat-amir-al-momenin-qadir.vercel.app/]
 
