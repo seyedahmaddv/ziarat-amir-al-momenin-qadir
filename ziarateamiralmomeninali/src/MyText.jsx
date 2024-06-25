@@ -1,6 +1,8 @@
 import React from 'react';
 import './index.css'
 import './App.css'
+import { Howl } from 'howler';
+
 function MyText() {
     const longText = `
     السَّلامُ عَلَىٰ مُحَمَّدٍ رَسُولِ اللّٰهِ، خاتَمِ النَّبِيِّينَ، وَسَيِّدِ الْمُرْسَلِينَ، وَصَفْوَةِ رَبِّ الْعالَمِينَ، أَمِينِ اللّٰهِ عَلَىٰ وَحْيِهِ وَعَزائِمِ أَمْرِهِ، وَالْخاتِمِ لِما سَبَقَ، وَالْفاتِحِ لِمَا اسْتُقْبِلَ، وَالْمُهَيْمِنِ عَلَىٰ ذٰلِكَ كُلِّهِ وَرَحْمَةُ اللّٰهِ وَبَرَكاتُهُ وَصَلَواتُهُ وَتَحِيَّاتُهُ .
@@ -101,7 +103,17 @@ function MyText() {
 خدایا لعنت کن اول ستمکاری که به خاندان محمّد ستم کرد و آنان را از حقوقشان بازداشت، خدایا اوّل ستمکار و غاصب حق خاندان محمّد را به لعنت اختصاص ده و هر پیروی کننده از آنچه او شیوه و روش ساخت تا روز قیامت. خدایا درود فرست بر محمّد خاتم پیامبران و بر علی سرور اوصیا و خاندان پاکش و ما را قرار ده از متمسّکین به آنان و از کامیابان به ولایتشان و ایمنانی که نه بیمی بر آنان است و نه اندوهگین می‌شوند.
   `;
 
-    return <p style={{ whiteSpace: 'pre-line' }}>{longText}</p>;
+    return    <div>
+        <div className='audio-container'>
+    <audio controls >
+      <source src="https://erfan.ir/files/sound/mafatih/789_683_1.erf" type="audio/ogg" />
+      Your browser does not support the audio element.
+    </audio>
+    </div>
+
+    <p>{longText}</p>
+  </div>
+     
 }
 
 export default MyText;

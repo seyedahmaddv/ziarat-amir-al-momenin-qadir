@@ -1,10 +1,14 @@
 import './App.css'
 import MyText from './MyText'
+
+
 function App() {
   
   return (
     <>
-      <h1>زیارت امیرالمومنین علی علیه السلام</h1>
+      <h1>زیارت امیرالمومنین علی علیه السلام در روز غدیر</h1>
+      
+
       <MyText />
     </>
   )
