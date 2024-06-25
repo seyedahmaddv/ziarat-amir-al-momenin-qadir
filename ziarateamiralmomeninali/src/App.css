@@ -22,7 +22,7 @@
 .img{
   width: '25%'; 
   height: 'auto';
-  justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: '5%' 
+  justifyContent: 'center';
+        alignItems: 'center';
+        borderRadius: '5%';
 }
