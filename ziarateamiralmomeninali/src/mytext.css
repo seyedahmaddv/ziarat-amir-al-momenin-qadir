@@ -1,0 +1,11 @@
+p {
+    white-Space: pre-line;
+    text-align: justify;
+}
+
+p:nth-child(odd) {
+    font-size: 2em; 
+    font-weight: normal; /* ضخامت نازک */
+    color: #a88f74; /* رنگ قهوه‌ای */
+    
+  }
