@@ -4,7 +4,7 @@ p {
 }
 
 p:nth-child(odd) {
-    font-size: 2em; 
+    font-size: 1.7em; 
     font-weight: normal; /* ضخامت نازک */
     color: #a88f74; /* رنگ قهوه‌ای */
     
