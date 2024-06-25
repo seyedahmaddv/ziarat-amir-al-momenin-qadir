@@ -1,12 +1,11 @@
 import './App.css'
-
+import MyText from './MyText'
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
       <h1>زیارت امیرالمومنین علی علیه السلام</h1>
-      
+      <MyText />
     </>
   )
 }
