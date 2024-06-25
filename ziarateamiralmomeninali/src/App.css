@@ -18,3 +18,11 @@
   height: 10vh; /* اندازه بندی مورد نظر خود را انتخاب کنید */
   width: 100%;
 }
+
+.img{
+  width: '25%'; 
+  height: 'auto';
+  justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: '5%' 
+}
