@@ -1,7 +1,8 @@
 img {
-  width: 25%;
+  width: 50%;
   height: auto;
   border-radius: 5%;
+  justify-content: center;
 }
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
