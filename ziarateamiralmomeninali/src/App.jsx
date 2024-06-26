@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import MyText from './MyText.jsx';
 import haram from './assets/haram-najaf.jpg';
-import LoginForm from './loginform.jsx';
+import LoginForm2 from './LoginForm2.jsx';
 
 import firebase from 'firebase/app';
 import 'firebase/auth';
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <>
-      <LoginForm />     
+      <LoginForm2 />     
       <div>
         <img src={haram} alt='حرم امیرالمومنین علی علیه السلام' />
         <h1>زیارت امیرالمومنین علی علیه السلام در روز غدیر</h1>

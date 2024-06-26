@@ -2,7 +2,7 @@ import {useState} from "react";
 import firebase from 'firebase/app'
 import 'firebase/auth'
 
-const LoginForm = () => {
+const LoginForm2 = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
@@ -25,4 +25,4 @@ const LoginForm = () => {
         </form>
     );
 };
-export default LoginForm;
+export default LoginForm2;
