@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css'
 import './App.css'
-import './mytext.css'
+import './mytextstyle.css'
 import './fonts.css';
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
