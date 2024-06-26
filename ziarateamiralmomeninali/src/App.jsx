@@ -26,9 +26,7 @@ function App() {
 
   return (
     <>
-      <header>
-        <LoginForm />
-      </header>
+      <LoginForm />     
       <div>
         <img src={haram} alt='حرم امیرالمومنین علی علیه السلام' />
         <h1>زیارت امیرالمومنین علی علیه السلام در روز غدیر</h1>
