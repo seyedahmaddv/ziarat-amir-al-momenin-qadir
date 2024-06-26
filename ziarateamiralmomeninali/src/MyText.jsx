@@ -3,7 +3,8 @@ import './index.css'
 import './App.css'
 import './mytext.css'
 import './fonts.css';
-
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
 function MyText() {
     const longText = `
     السَّلامُ عَلَىٰ مُحَمَّدٍ رَسُولِ اللّٰهِ، خاتَمِ النَّبِيِّينَ، وَسَيِّدِ الْمُرْسَلِينَ، وَصَفْوَةِ رَبِّ الْعالَمِينَ، أَمِينِ اللّٰهِ عَلَىٰ وَحْيِهِ وَعَزائِمِ أَمْرِهِ، وَالْخاتِمِ لِما سَبَقَ، وَالْفاتِحِ لِمَا اسْتُقْبِلَ، وَالْمُهَيْمِنِ عَلَىٰ ذٰلِكَ كُلِّهِ وَرَحْمَةُ اللّٰهِ وَبَرَكاتُهُ وَصَلَواتُهُ وَتَحِيَّاتُهُ .
@@ -106,14 +107,22 @@ function MyText() {
   const lines = longText.split('\n').map((line, index) => (
     <p key={index}>{line}</p>
   ));
-
+  const Player = () => (
+    <AudioPlayer
+      autoPlay
+      src="https://erfan.ir/files/sound/mafatih/789_683_1.erf"
+      onPlay={e => console.log("onPlay")}
+      // other props here
+    />
+  );
     return    <div>
-        <div className='audio-container'>
+        {/* <div className='audio-container'>
     <audio controls >
       <source src="https://erfan.ir/files/sound/mafatih/789_683_1.erf" type="audio/ogg" />
       Your browser does not support the audio element.
     </audio>
-    </div>
+    </div> */}
+    {Player()}
     {lines}
   </div>
      
